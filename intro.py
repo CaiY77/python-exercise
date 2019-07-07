@@ -26,3 +26,16 @@ print(number_array)
 insert_num = 4.5
 real_numbers.insert(4,insert_num)
 print (real_numbers)
+
+#finds the GC percent in DNA stand from userinput
+message = "CAAAGGTTCATCGACT"
+
+length = len(message)
+print( "The Length is " , length)
+
+c = message.count('C')
+g = message.count('G')
+
+gc = (c + g)/length
+
+print( "The GC-content is " , gc)
